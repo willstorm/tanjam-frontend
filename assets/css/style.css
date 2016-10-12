@@ -4,10 +4,6 @@
 @import 'hover.css';
 
 /* GLOBAL STYLES */
-body {
-    padding-bottom: 500px;
-}
-
 .container {
     width: 960px;
     margin: 0 auto;
@@ -95,6 +91,10 @@ section .container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.clear {
+    clear: both;
 }
 
 /* BANNER */
