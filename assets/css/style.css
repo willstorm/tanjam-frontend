@@ -242,6 +242,11 @@ header #banner a.button {
         margin: 0;
     }
     
+    #expertise .container > p {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
     #expertise ul li {        
         float: none;
         border: 0;
