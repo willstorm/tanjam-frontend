@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tanjam</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="fixed">
+        <div class="container">
+           <nav>
+                <div id="logo">
+                    <a href="">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <ul id="menu">
+                    <li><a href="#" class="hvr-bob">Home</a></li>
+                    <li><a href="#our-story" class="hvr-bob">About</a></li>
+                    <li><a href="#expertise" class="hvr-bob">Expertise</a></li>
+                    <li><a href="#" class="hvr-bob">Teams</a></li>
+                    <li><a href="#" class="hvr-bob">Works</a></li>
+                    <li><a href="#" class="hvr-bob">People Say</a></li>            
+                    <li><a href="#" class="hvr-bob">Contact</a></li>            
+                </ul>
+            </nav>
+            
+            <div id="banner">
+                <div>
+                    <h1>We Are Awesome Creative Agency</h1>
+                    <hr>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                    <a href="#" class="button hvr-bob">Learn more</a>
+                </div>                
+            </div>            
+        </div>
+    </header>
+    <!-- OUR STORY -->
+    <section id="our-story">
+        <div class="container">
+            <img src="assets/images/our-story.png">            
+            <div class="content">
+                <h2>OUR STORY</h2>                
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>                
+                <a href="" class="button hvr-bob">Learn more</a>
+            </div>           
+        </div>        
+    </section>    
+    <section id="our-story-video" class="fixed">
+        <div class="container">            
+            <a href="#">Watch our story</a>            
+        </div>
+    </section>
+    
+    <!-- EXPERTISE -->
+    <section id="expertise">
+        <div class="container">
+            <h2>EXPERTISE</h2>
+            <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+            <hr>
+            <ul>
+                <li>
+                    <img src="assets/images/icon-expertise-web.png">
+                    <h3>WEB DESIGN & DEVELOPMENT</h3>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </li>
+                <li>
+                    <img src="assets/images/icon-expertise-branding.png">
+                    <h3>BRANDING IDENTITY</h3>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </li>
+                <li>
+                    <img src="assets/images/icon-expertise-mobile.png">
+                    <h3>MOBILE APP</h3>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </li>
+                <li>
+                    <img src="assets/images/icon-expertise-search.png">
+                    <h3>SEARCH ENGINE OPTIMIZATION</h3>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </li>
+                <li>
+                    <img src="assets/images/icon-expertise-game.png">
+                    <h3>GAME DEVELOPMENT</h3>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </li>
+                <li>
+                    <img src="assets/images/icon-expertise-love.png">
+                    <h3>MADE WITH LOVE</h3>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script>
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+	</script>
+</body>
+</html>
