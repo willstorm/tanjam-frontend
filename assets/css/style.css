@@ -198,3 +198,65 @@ header #banner a.button {
 #expertise ul li:nth-child(n+4) {
     border-bottom: 0;
 }
+
+
+@media (max-width: 480px) {
+    .container  {
+        width: 100%;
+    }
+    
+    h1 {
+        line-height: 50px;
+    }
+    
+    nav #logo {
+        margin-left: 20px;        
+    }
+    
+    header #banner {
+        top: 85px;
+    }
+    
+    header #banner p {        
+        width: 80%;    
+    }
+    
+    nav #menu {
+        display: none;
+    }
+    
+    #our-story img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #our-story .content {
+        width: 90%;
+        display: block;
+        left: 0;
+        margin: 50px auto 0 auto;
+        text-align: center;
+    }
+    
+    #expertise ul {
+        margin: 0;
+    }
+    
+    #expertise ul li {        
+        float: none;
+        border: 0;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
